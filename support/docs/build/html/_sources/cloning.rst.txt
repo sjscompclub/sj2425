@@ -13,18 +13,14 @@ To download the website source codes on your laptop, please run the following co
 
     :~$ cd 
     :~$ cd Documents
-    :~$ git clone git@github.com:sjscompclub/-www.git www.git
-
+    :~$ git clone git@github.com:sjscompclub/sj2425.git sj2425.git
+  
 .. note:: 
 
     The above commands download the website codes from the **GitHub** repository in
     your **Documents** folder.  On completion,  you should have a new
     folder---named **www.git**, inside your **Documents** folder---with all the files. 
     
-
-
-
-
 Opening the Source Code folder on VS Code
 -----------------------------------------
 
@@ -33,7 +29,7 @@ Run the following commands to open the website source code folder on Visual Stud
 .. code-block:: console
 
     :~$ cd 
-    :~$ cd Documents/www.git
+    :~$ cd Documents/sj2425.git
     :~$ code .
 
 .. Attention::

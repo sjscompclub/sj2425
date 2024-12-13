@@ -6,9 +6,9 @@
 The Club Support Page
 =====================
 
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
+.. `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 
-`Click to go back to the front page <https://sjscompclub.github.io/-www/>`_
+`Click to go back to the front page <https://sjscompclub.github.io/sj2425/>`_
 
 .. toctree::
     :maxdepth: 2
