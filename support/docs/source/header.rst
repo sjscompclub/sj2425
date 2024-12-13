@@ -35,7 +35,7 @@ The content of the initial HTML file
 The provided HTML file---named after your first name, followed by .html
 extension---has the following content:
 
-.. code-block:: html
+.. code-block:: HTML
     :caption: *HTML Code: student-name.html*
     :linenos:
     :emphasize-lines: 6,7,8,14,22
