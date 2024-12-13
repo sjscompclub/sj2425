@@ -1,0 +1,62 @@
+====================
+Creating Page Header
+====================
+
+Introduction
+------------
+
+
+In this section, we will create a header for our webpage and, in the process,
+perform/learn the following:
+
+* Understand the general structure of the provided HTML file.
+* Change the content of the *<title>* tag and understand its purpose.
+* Review at least three Unix commands---namely, *ls*, *pwd* and *cd*---to
+  understand the file structure and relative file locations.
+* Understand the purpose of *favicon.ico*, and its location.
+* Understand *<a>* tag and its *href*  attribute.
+* Change the content of *<h1>* tag.
+* Understand CSS (Cascading Style Sheet) and carry out some basic styling on
+  *<h1>* element.
+
+
+
+The content of the initial HTML file
+------------------------------------
+
+The provided HTML file---named after your first name, followed by .html
+extension---has the following content:
+
+.. code-block:: html
+    :caption: *HTML Code: student-name.html*
+
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>St. Joseph's Computer Club</title>
+        <link rel="icon" type="image/x-icon" 
+        href="../assets/images/favicon.ico">
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/mystyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Page header</h1>
+            <p>
+                This is my test paragraph...
+            </p>
+            <a href="../index.html">
+                Click to go back to the front page...
+            </a>
+        </div>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/anime.min.js"></script>
+    <script src="js/myjs.js"></script>
+    </body>
+    </html>
+
+
+
+

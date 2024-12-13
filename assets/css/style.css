@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Rubik+Dirt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#club-logo, #training-purposes{
+   /* font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal; */
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(249, 6, 6);
+    text-shadow: 9px 5px 4px #2a3132;
+}
+#club-logo{
+    font-size: 50px !important;
+}
+
+#training-purposes {
+    font-size: 30px !important;
+}
+.line{
+    height: 1px;
+    background-color:rgb(128, 128, 128);
+}
+
+
+section.container-fluid{
+    padding:0;
+    margin:0;
+}
+
+.carousel-caption h5{
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+    text-shadow: 5px 5px 1px rgb(0, 0, 0);
+}
+
+.carousel-caption p{
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+    font-size: 30px;
+
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(249, 6, 6);
+    border-radius:0%;
+}
+
+.footer h5{
+    height: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.service-icon {
+    background-color: #fff;
+    color: #1D809F;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2, .content-section-heading .h2 {
+    font-size: 3rem;
+}
