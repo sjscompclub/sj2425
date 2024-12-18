@@ -28,13 +28,13 @@ html_theme = 'sphinx_nefertiti'
 #html_static_path = ['_static']
 #html_static_path = ['assets/images']
 html_theme_options = {
-    "sans_serif_font": "Mulish",
-    "monospace_font": "Ubuntu Mono",
+  #  "sans_serif_font": "Mulish",
+  #  "monospace_font": "Ubuntu Mono",
     "monospace_font_size": "1.1rem",
-    "project_name_font": "Montserrat",
-    "documentation_font": "Open Sans",
+  #  "project_name_font": "Montserrat",
+   # "documentation_font": "Open Sans",
     "documentation_font_size": "1.1rem",
-    "doc_headers_font": "Georgia",
+  #  "doc_headers_font": "Georgia",
     "style": "green",
     "pygments_dark_style": "solarized-dark",
 }

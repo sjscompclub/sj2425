@@ -18,24 +18,20 @@
     <link rel="canonical" href="cloning" />
           <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8e8a900e" /><!-- add (1) -->
           <link rel="stylesheet" type="text/css" href="_static/sphinx-nefertiti-green.min.css?v=72073b93" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="_static/fonts/mulish/stylesheet.css?v=30be455f" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="_static/fonts/ubuntu-mono/stylesheet.css?v=e102a8f5" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="_static/fonts/montserrat/stylesheet.css?v=b8f71423" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="_static/fonts/open-sans/stylesheet.css?v=aa38276c" /><!-- add (1) -->
+          <link rel="stylesheet" type="text/css" href="_static/fonts/nunito/stylesheet.css?v=0ed606bc" /><!-- add (1) -->
+          <link rel="stylesheet" type="text/css" href="_static/fonts/red-hat-mono/stylesheet.css?v=4eee5046" /><!-- add (1) -->
           <link rel="stylesheet" type="text/css" href="_static/pygments-dark.css?v=6a231ed7" /><!-- add (1) -->
           <link rel="stylesheet" type="text/css" href="_static/pygments-light.css?v=1620426e" /><!-- add (1) -->
           <link rel="stylesheet" type="text/css" href="_static/bootstrap-icons.min.css?v=44730005" /><!-- add (1) -->
         <link rel="index" title="Index" href="genindex.html" />
         <link rel="search" title="Search" href="search.html" />
         <link rel="top" title="St. Joseph&#39;s Computer Club Support Page 0.1 documentation" href="#" />
-        <link rel="next" title="Creating Page Header" href="header.html" />
-        <link rel="prev" title="The Club Support Page" href="index.html" />
     <style>
       :root {
-        --nftt-body-font-family: "Mulish", var(--nftt-font-sans-serif) !important;
-        --nftt-font-monospace: "Ubuntu Mono", var(--nftt-font-family-monospace) !important;
-        --nftt-project-name-font: "Montserrat", var(--nftt-body-font-family);
-        --nftt-documentation-font: "Open Sans", var(--nftt-body-font-family);
+        --nftt-body-font-family: "Nunito", var(--nftt-font-sans-serif) !important;
+        --nftt-font-monospace: "Red Hat Mono", var(--nftt-font-family-monospace) !important;
+        --nftt-project-name-font: var(--nftt-body-font-family);
+        --nftt-documentation-font: var(--nftt-body-font-family);
         --nftt-doc-headers-font: "Georgia", var(--nftt-documentation-font);--nftt-documentation-font-size: 1.1rem;--nftt-monospace-font-size: 1.1rem;}
       h1 *, h2 *, h3 *, h4 *, h5 *, h6 * { font-size: inherit; }
     </style>
@@ -174,9 +170,15 @@
       <input id="sidebar-filter" type="text" name="filter" class="form-control form-control-sm" placeholder="filter" aria-label="filter">
     </div>
     <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Website Source Codes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="header.html">Creating Page Header</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="download-source.html">Downloading the website source codes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="website-source-repo-structure.html">Website Source Repository Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open-source-on-vscode.html">Opening the Source Code folder on VS Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="go-live-preview.html">Previewing your HTML Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="elementary-unix-command.html">Basic Unix Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="title-tag.html">Changing the Content of <em>&lt;title&gt;</em> Tag</a></li>
+<li class="toctree-l1"><a class="reference internal" href="favicon.html">Changing the File’s  Favourite Icon (FavIcon)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="header.html">Changing Page Header Content</a></li>
 </ul>
 
   </nav>
@@ -204,9 +206,9 @@
 <section id="downloading-the-website-source-codes">
 <h2>Downloading the website source codes<a class="headerlink" href="#downloading-the-website-source-codes" title="Link to this heading">¶</a></h2>
 <p>To download the website source codes on your laptop, please run the following commands:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">:~$ cd</span>
-<span class="go">:~$ cd Documents</span>
-<span class="go">:~$ git clone git@github.com:sjscompclub/sj2425.git sj2425.git</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="go">:~$ cd</span>
+<span class="linenos">2</span><span class="go">:~$ cd Documents</span>
+<span class="linenos">3</span><span class="go">:~$ git clone git@github.com:sjscompclub/sj2425.git sj2425.git</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -219,9 +221,9 @@ folder—named <strong>www.git</strong>, inside your <strong>Documents</strong> 
 <section id="opening-the-source-code-folder-on-vs-code">
 <h2>Opening the Source Code folder on VS Code<a class="headerlink" href="#opening-the-source-code-folder-on-vs-code" title="Link to this heading">¶</a></h2>
 <p>Run the following commands to open the website source code folder on Visual Studio Code (VS Code):</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">:~$ cd</span>
-<span class="go">:~$ cd Documents/sj2425.git</span>
-<span class="go">:~$ code .</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="go">:~$ cd</span>
+<span class="linenos">2</span><span class="go">:~$ cd Documents/sj2425.git</span>
+<span class="linenos">3</span><span class="go">:~$ code .</span>
 </pre></div>
 </div>
 <div class="admonition attention">
@@ -241,7 +243,7 @@ folder—named <strong>www.git</strong>, inside your <strong>Documents</strong> 
 <li><p>The <strong>pwd</strong> command (<em>print working, or present, directory command</em>): We use this command to display the current folder’s path (or name).</p></li>
 </ul>
 <p>Please run the following commands:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>:~$<span class="w"> </span><span class="nb">cd</span>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>:~$<span class="w"> </span><span class="nb">cd</span>
 <span class="c1"># This statement should bring you to the root of your home directory</span>
 :~$<span class="w"> </span><span class="nb">pwd</span>
 /home/user
@@ -388,30 +390,8 @@ where you save your files and folders.</p>
     </div>
 
     <footer class="nftt-footer">
-      <nav id="paginator" class="py-4" aria-label="Documentation navigation">
-    <div class="container">
-      <ul class="pagination justify-content-between mb-0"><li class="d-flex page-item">
-            <a href="index.html" class="d-flex px-5 align-items-end" rel="prev" aria-label="Previous page: The Club Support Page">
-              <span class="prev-page"><i class="bi bi-caret-left"></i></span>
-              <div class="d-none d-sm-flex flex-column">
-                <span class="text-small text-start text-muted">Previous</span>
-                <span class="underline">The Club Support Page</span>
-              </div>
-            </a>
-          </li>
-        <li class="d-flex page-item ms-auto">
-            <a href="header.html" class="d-flex px-5 align-items-end" rel="next" aria-label="Next page: Creating Page Header">
-              <div class="d-flex flex-column">
-                <span class="text-small text-end text-start text-muted">Next</span>
-                <span class="underline">Creating Page Header</span>
-              </div>
-              <span class="next-page"><i class="bi bi-caret-right"></i></span>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </nav>
+      
+<nav id="paginator"></nav>
 
       <div class="py-5 px-4 px-md-3">
   <div class="container">

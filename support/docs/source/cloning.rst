@@ -10,6 +10,7 @@ Downloading the website source codes
 To download the website source codes on your laptop, please run the following commands:
 
 .. code-block:: console
+    :linenos:
 
     :~$ cd 
     :~$ cd Documents
@@ -27,6 +28,7 @@ Opening the Source Code folder on VS Code
 Run the following commands to open the website source code folder on Visual Studio Code (VS Code):
 
 .. code-block:: console
+    :linenos:
 
     :~$ cd 
     :~$ cd Documents/sj2425.git
@@ -50,7 +52,7 @@ In this section, to better understand the file structure of our source code, we 
 
 Please run the following commands:
 
-.. code-block:: bash
+.. code-block:: sh
 
     :~$ cd
     # This statement should bring you to the root of your home directory

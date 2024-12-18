@@ -6,7 +6,13 @@
 The Club Support Page
 =====================
 
-.. `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
+
+.. image:: ../../../../assets/images/codingSupport1.webp
+  :width: 1400
+  :alt: Website Soure Code File Structure Diagram 
+
+
+
 
 `Click to go back to the front page <https://sjscompclub.github.io/sj2425/>`_
 
@@ -14,7 +20,13 @@ The Club Support Page
     :maxdepth: 2
     :caption: Contents:
 
-    cloning
+    download-source
+    website-source-repo-structure
+    open-source-on-vscode
+    go-live-preview
+    elementary-unix-command
+    title-tag
+    favicon
     header
 
 

@@ -18,23 +18,21 @@
     <link rel="canonical" href="index" />
           <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8e8a900e" /><!-- add (1) -->
           <link rel="stylesheet" type="text/css" href="_static/sphinx-nefertiti-green.min.css?v=72073b93" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="_static/fonts/mulish/stylesheet.css?v=30be455f" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="_static/fonts/ubuntu-mono/stylesheet.css?v=e102a8f5" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="_static/fonts/montserrat/stylesheet.css?v=b8f71423" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="_static/fonts/open-sans/stylesheet.css?v=aa38276c" /><!-- add (1) -->
+          <link rel="stylesheet" type="text/css" href="_static/fonts/nunito/stylesheet.css?v=0ed606bc" /><!-- add (1) -->
+          <link rel="stylesheet" type="text/css" href="_static/fonts/red-hat-mono/stylesheet.css?v=4eee5046" /><!-- add (1) -->
           <link rel="stylesheet" type="text/css" href="_static/pygments-dark.css?v=6a231ed7" /><!-- add (1) -->
           <link rel="stylesheet" type="text/css" href="_static/pygments-light.css?v=1620426e" /><!-- add (1) -->
           <link rel="stylesheet" type="text/css" href="_static/bootstrap-icons.min.css?v=44730005" /><!-- add (1) -->
         <link rel="index" title="Index" href="genindex.html" />
         <link rel="search" title="Search" href="search.html" />
         <link rel="top" title="St. Joseph&#39;s Computer Club Support Page 0.1 documentation" href="#" />
-        <link rel="next" title="Website Source Codes" href="cloning.html" />
+        <link rel="next" title="Downloading the website source codes" href="download-source.html" />
     <style>
       :root {
-        --nftt-body-font-family: "Mulish", var(--nftt-font-sans-serif) !important;
-        --nftt-font-monospace: "Ubuntu Mono", var(--nftt-font-family-monospace) !important;
-        --nftt-project-name-font: "Montserrat", var(--nftt-body-font-family);
-        --nftt-documentation-font: "Open Sans", var(--nftt-body-font-family);
+        --nftt-body-font-family: "Nunito", var(--nftt-font-sans-serif) !important;
+        --nftt-font-monospace: "Red Hat Mono", var(--nftt-font-family-monospace) !important;
+        --nftt-project-name-font: var(--nftt-body-font-family);
+        --nftt-documentation-font: var(--nftt-body-font-family);
         --nftt-doc-headers-font: "Georgia", var(--nftt-documentation-font);--nftt-documentation-font-size: 1.1rem;--nftt-monospace-font-size: 1.1rem;}
       h1 *, h2 *, h3 *, h4 *, h5 *, h6 * { font-size: inherit; }
     </style>
@@ -174,8 +172,14 @@
     </div>
     <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="cloning.html">Website Source Codes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="header.html">Creating Page Header</a></li>
+<li class="toctree-l1"><a class="reference internal" href="download-source.html">Downloading the website source codes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="website-source-repo-structure.html">Website Source Repository Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open-source-on-vscode.html">Opening the Source Code folder on VS Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="go-live-preview.html">Previewing your HTML Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="elementary-unix-command.html">Basic Unix Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="title-tag.html">Changing the Content of <em>&lt;title&gt;</em> Tag</a></li>
+<li class="toctree-l1"><a class="reference internal" href="favicon.html">Changing the File’s  Favourite Icon (FavIcon)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="header.html">Changing Page Header Content</a></li>
 </ul>
 
   </nav>
@@ -199,25 +203,39 @@
 </nav>
     <section id="the-club-support-page">
 <h1>The Club Support Page<a class="headerlink" href="#the-club-support-page" title="Link to this heading">¶</a></h1>
+<a class="reference internal image-reference" href="../../../../assets/images/codingSupport1.webp"><img alt="Website Soure Code File Structure Diagram" src="../../../../assets/images/codingSupport1.webp" style="width: 1400px;" />
+</a>
 <p><a class="reference external" href="https://sjscompclub.github.io/sj2425/">Click to go back to the front page</a></p>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="cloning.html">Website Source Codes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="cloning.html#downloading-the-website-source-codes">Downloading the website source codes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cloning.html#opening-the-source-code-folder-on-vs-code">Opening the Source Code folder on VS Code</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cloning.html#project-repository-structure">Project Repository Structure</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cloning.html#summary">Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="download-source.html">Downloading the website source codes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="website-source-repo-structure.html">Website Source Repository Structure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-index-html-file">The <em>index.html</em> file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-assets-folder">The <em>assets</em> folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-conor-folder">The <em>conor</em> folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-emmet-folder">The <em>emmet</em> folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-harry-folder">The <em>harry</em> folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-jack-folder">The <em>jack</em> folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-muhammed-folder">The <em>muhammed</em> folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-ronan-folder">The <em>ronan</em> folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-sam-folder">The <em>sam</em> folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-support-folder">The <em>support</em> folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#the-test1-and-test2-folders">The <em>test1</em> and <em>test2</em> folders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="website-source-repo-structure.html#summary">Summary</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="header.html">Creating Page Header</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="header.html#introduction">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="header.html#the-content-of-the-initial-html-file">The content of the initial HTML file</a></li>
-<li class="toctree-l2"><a class="reference internal" href="header.html#changing-the-content-of-title-tag">Changing the content of <em>&lt;title&gt;</em> tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="header.html#comments-in-html-files">Comments in HTML files</a></li>
-<li class="toctree-l2"><a class="reference internal" href="header.html#reviewing-unix-commands">Reviewing Unix Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open-source-on-vscode.html">Opening the Source Code folder on VS Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="go-live-preview.html">Previewing your HTML Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="elementary-unix-command.html">Basic Unix Commands</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="elementary-unix-command.html#the-ls-command">The <em>ls</em> command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="elementary-unix-command.html#the-cd-command">The <em>cd</em> command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="elementary-unix-command.html#the-pwd-command">The <em>pwd</em> command</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="title-tag.html">Changing the Content of <em>&lt;title&gt;</em> Tag</a></li>
+<li class="toctree-l1"><a class="reference internal" href="favicon.html">Changing the File’s  Favourite Icon (FavIcon)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="header.html">Changing Page Header Content</a></li>
 </ul>
 </div>
 </section>
@@ -233,10 +251,10 @@
       <nav id="paginator" class="py-4" aria-label="Documentation navigation">
     <div class="container">
       <ul class="pagination justify-content-between mb-0"><li class="d-flex page-item ms-auto">
-            <a href="cloning.html" class="d-flex px-5 align-items-end" rel="next" aria-label="Next page: Website Source Codes">
+            <a href="download-source.html" class="d-flex px-5 align-items-end" rel="next" aria-label="Next page: Downloading the website source codes">
               <div class="d-flex flex-column">
                 <span class="text-small text-end text-start text-muted">Next</span>
-                <span class="underline">Website Source Codes</span>
+                <span class="underline">Downloading the website source codes</span>
               </div>
               <span class="next-page"><i class="bi bi-caret-right"></i></span>
             </a>
