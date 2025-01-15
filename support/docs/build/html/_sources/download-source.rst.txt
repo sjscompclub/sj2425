@@ -12,7 +12,7 @@ your laptop, please run the following statements:
 
     :~$ cd 
     :~$ cd Documents
-    :~$ git clone git@github.com:sjscompclub/sj2425.git sj2425.git
+    :~$ git clone git@github.com:sjscompclub/sj2425 sj2425.git
 
 .. Attention::
 
