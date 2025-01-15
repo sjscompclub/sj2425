@@ -14,7 +14,7 @@ To download the website source codes on your laptop, please run the following co
 
     :~$ cd 
     :~$ cd Documents
-    :~$ git clone git@github.com:sjscompclub/sj2425.git sj2425.git
+    :~$ git clone git@github.com:sjscompclub/sj2425 sj2425.git
   
 .. note:: 
 
