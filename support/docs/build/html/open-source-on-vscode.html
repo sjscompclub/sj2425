@@ -204,6 +204,21 @@
 </nav>
     <section id="opening-the-source-code-folder-on-vs-code">
 <h1>Opening the Source Code folder on VS Code<a class="headerlink" href="#opening-the-source-code-folder-on-vs-code" title="Link to this heading">¶</a></h1>
+<p>Creating a new branch:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">:~$ cd</span>
+<span class="go">:~$ cd Documents</span>
+<span class="go">:~$ cd sj2425.git</span>
+<span class="go">:~$ git branch</span>
+<span class="go">:~$ git branch -c YOUR-FIRST-NAME-X</span>
+<span class="go">:~$ git branch</span>
+<span class="go">:~$ git checkout YOUR-FIRST-NAME-X</span>
+</pre></div>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>In the above, please replase <strong>YOUR-FIRST-NAME-X</strong> with your first name +
+one digit number for <strong>X</strong>.</p>
+</div>
 <p>To open your website source folder on Visual Studio Code (VS Code), please run
 the following statements (without ‘ <em>:~$</em> ‘):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span>:~$<span class="w"> </span><span class="nb">cd</span>
@@ -214,6 +229,19 @@ the following statements (without ‘ <em>:~$</em> ‘):</p>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
 <p>In line 2 above, please replace <strong>YOUR-FIRST-NAME</strong> with your first name (all lower case).</p>
+</div>
+<p>Work on your file (add/edit/update your file)…</p>
+<p>Now, update the remote server:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">:~$ cd</span>
+<span class="go">:~$ cd Documents</span>
+<span class="go">:~$ cd sj2425.git</span>
+<span class="go">:~$ git status</span>
+<span class="go">:~$ git add .</span>
+<span class="go">:~$ git status</span>
+<span class="go">:~$ git commit -m &quot;First day update&quot;</span>
+<span class="go">:~$ git push origin HEAD</span>
+<span class="go">:~$ git remote show origin</span>
+</pre></div>
 </div>
 </section>
 
