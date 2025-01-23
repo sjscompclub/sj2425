@@ -1,3 +1,4 @@
+.. _download-source:
 ====================================
 Downloading the website source codes
 ====================================

@@ -21,8 +21,10 @@ The Club Support Page
     :caption: Contents:
 
     download-source
+    update-source
     website-source-repo-structure
     open-source-on-vscode
+    styling-header
     go-live-preview
     elementary-unix-command
     title-tag

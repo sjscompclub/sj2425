@@ -1,3 +1,4 @@
+.. _open-source-on-vscode:
 =========================================
 Opening the Source Code folder on VS Code
 =========================================
