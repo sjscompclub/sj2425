@@ -1,0 +1,6 @@
+p a.external{
+    text-decoration: none;
+    background-color: red;
+    padding: 3px 7px;
+    border: 1px solid red;
+}

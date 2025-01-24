@@ -11,10 +11,13 @@ The Club Support Page
   :width: 1400
   :alt: Website Soure Code File Structure Diagram 
 
+.. role:: to-main
+   :class: to-index-page 
 
+`Back to front page`_ 
 
+.. _Back to front page: https://sjscompclub.github.io/sj2425/
 
-`Click to go back to the front page <https://sjscompclub.github.io/sj2425/>`_
 
 .. toctree::
     :maxdepth: 2
