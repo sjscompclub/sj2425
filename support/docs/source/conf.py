@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "St. Joseph's Computer Club Support Page"
+project = "St. Joseph's Computer Coding Club"
 copyright = '2024, THAPA Damar'
 author = 'THAPA Damar'
 release = '0.1'

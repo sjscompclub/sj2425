@@ -1,5 +1,5 @@
 p a.external{
-    border: 2px solid rgba(7,131,73,0.9);
+    border: 1px solid rgba(7,131,73,0.9);
     background-color: rgba(255,255,255, 0.0);
     color: #06693a;
     border-radius: 10px;
@@ -9,10 +9,45 @@ p a.external{
     display: inline-block;
     font-size:20px;
     font-weight: bold;
+    -webkit-box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
+    box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
     }
+
 p a.external:hover{
-    border: 2px solid #ff420e;
+    border: 1px solid #ff420e;
     background-color: rgba(255,255,255, 0.0);
     color: #ff420e;
+     -webkit-box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
+    box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
+
     }
+
+a.navbar-brand{
+    text-align:center;
+}
+span.brand-text{
+    font-size:40px;
+    font-size: bold;
+    color: rgba(255, 255, 255, 0.9) !important;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+section h1 {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+section#the-support-page h1{
+    text-align:center !important;
+    color: #06693a;
+    border-bottom: 1px solid rgba(7,131,73,0.9); 
+    background-color: rgba(255,255,255, 0.0);
+    border-radius:1px 10px 10px 10px;
+    padding: 7px; 
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
+    box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
+}
 
