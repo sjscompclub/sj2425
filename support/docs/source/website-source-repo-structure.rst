@@ -82,3 +82,8 @@ understanding of the structure, you are now ready to start coding.
     Please ensure that you save your work only in your assigned directory.
 
 Happy coding!
+
+`Back to front page`_ 
+
+.. _Back to front page: https://sjscompclub.github.io/sj2425/
+

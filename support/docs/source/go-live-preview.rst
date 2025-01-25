@@ -23,4 +23,9 @@ Your browser (Firefox on our laptops) should now ope your HTML file at the URL
 of 'http://127.0.0.1:5500'.
 
 To stop the preview, please click on the 'http://127.0.0.1:5500'
-button.  
+button. 
+
+`Back to front page`_ 
+
+.. _Back to front page: https://sjscompclub.github.io/sj2425/
+

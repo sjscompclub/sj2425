@@ -53,4 +53,7 @@ Now, update the remote server:
     :~$ git remote show origin
 
 
+`Back to front page`_ 
+
+.. _Back to front page: https://sjscompclub.github.io/sj2425/
 

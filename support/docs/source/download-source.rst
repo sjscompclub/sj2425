@@ -38,4 +38,7 @@ On download completion, you should have a new folder, **sj2425.git**, in your
 **Documents** folder, with all website source files and folders.
 
 
+`Back to front page`_ 
+
+.. _Back to front page: https://sjscompclub.github.io/sj2425/
 

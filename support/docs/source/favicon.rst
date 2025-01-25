@@ -59,4 +59,7 @@ values:
 
 
 
+`Back to front page`_ 
+
+.. _Back to front page: https://sjscompclub.github.io/sj2425/
 

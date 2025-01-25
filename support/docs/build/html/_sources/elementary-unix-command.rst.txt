@@ -62,3 +62,7 @@ Please run the following commands:
     # It takes back to assets and then to js folder of assets.
 
 
+`Back to front page`_ 
+
+.. _Back to front page: https://sjscompclub.github.io/sj2425/
+

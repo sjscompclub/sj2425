@@ -55,4 +55,9 @@ Please replace ``Abc`` with your first name---such as Conor,  Emmet, Harry, etc.
 
 
 Do you know where you find your title content when you open the file on a
-browser? 
+browser?
+
+`Back to front page`_ 
+
+.. _Back to front page: https://sjscompclub.github.io/sj2425/
+

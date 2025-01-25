@@ -42,4 +42,9 @@ Styling Header Section
 * Please save the file, and then click the 'Go Live' button to view the outcome.
  
 .. note::
-    We will examine the details of the above codes and the id attribute of HTML tags. 
+    We will examine the details of the above codes and the id attribute of HTML tags.
+
+`Back to front page`_ 
+
+.. _Back to front page: https://sjscompclub.github.io/sj2425/
+
