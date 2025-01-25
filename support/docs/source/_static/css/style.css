@@ -51,3 +51,6 @@ section#the-support-page h1{
     box-shadow: 3px 6px 4px 0px rgba(0,0,0,0.54);
 }
 
+img.codingsupportimage {
+    background-color:red;
+}

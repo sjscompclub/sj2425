@@ -8,8 +8,10 @@ The Support Page
 
 
 .. image:: ../../../../assets/images/codingSupport1.webp
-  :width: 1400
-  :alt: Website Soure Code File Structure Diagram 
+    :width: 1400
+    :alt: Website Soure Code File Structure Diagram 
+    :class: codingsupportimg
+    
 
 .. role:: to-main
    :class: to-index-page 
