@@ -71,8 +71,8 @@ section.container-fluid{
     }
 
 .service-icon {
-    background-color: #fff;
     color: #1D809F;
+    opacity:1;
     height: 7rem;
     width: 7rem;
     display: block;
@@ -81,6 +81,9 @@ section.container-fluid{
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
     }
 
+.service-icon:hover{
+    opacity: 0.6;
+}
 .mb-5 {
     margin-bottom: 3rem !important;
     }
@@ -106,9 +109,10 @@ a.page-link  {
     font-weight: bold;
     }
 a.page-link:hover{
-    border: 2px solid #ff420e;
+    /* border: 2px solid #ff420e;
     background-color: #ff420e;
-    color:  white;
+    color:  white; */
+    opacity: 0.5;
     }
 
 .footer{
@@ -151,11 +155,7 @@ nav.bg-dark{
     background-color: rgba(0,0,0,0.1) !important;
     width: 100%;
     height: auto;
-    /*height: 100vh;
-          min-height: 10rem;
-          text-align: center;
-          background-color: rgba(0, 0, 0, 0.9) !important;*/
-  
+      
     background: url(../images/1.webp);
     background-position: bottom;
     background-size: 100%;
@@ -163,3 +163,5 @@ nav.bg-dark{
     background-attachment: scroll;
 
 }
+
+
