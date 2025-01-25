@@ -1,8 +1,8 @@
 anime({
     targets: 'div.circle',
-    translateX: 500,
-    rotate: '1turn',
-    duration: 1600,
+    translateX: 1200,
+    rotate: '3turn',
+    duration: 2600,
     loop: true,
     easing: 'easeInOutSine'
   });
