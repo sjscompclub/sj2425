@@ -4,7 +4,7 @@ Basic Unix Commands
 
 In this section, to better understand the file structure of our source code, we will use/review some basic Unix commands.
 
-.. image:: ../../../../assets/images/filestructurediagram.webp
+.. image:: ../../../../assets/images/filestructurediagram01.webp
   :width: 1400
   :alt: Unix FileSystem & Project File Structure Diagram
 

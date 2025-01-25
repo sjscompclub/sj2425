@@ -54,3 +54,10 @@ section#the-support-page h1{
 img.codingsupportimage {
     background-color:red;
 }
+
+li a.current, li a.internal:hover {
+    color: white !important;
+    background-color: #078349 !important;
+    text-decoration: none !important;
+    border-radius: 5px !important;
+}
