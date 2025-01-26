@@ -3,6 +3,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+@font-face {
+   font-family: myRobotoRegular;
+   src: url(Roboto/Roboto-Regular.ttf);
+   font-weight: regular;
+}
+
+p.myroboto {
+   font-family: myRobotoRegular;
+   font-size: 16px;
+   line-height: 22px;
+   font-weight: 400;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -18,10 +32,13 @@
     color: #eb5e30;
     text-shadow: 9px 5px 4px #2a3132;
     }
+    
 h1#club-logo{
     font-size: 50px !important;
     padding-top: 25px;
     padding-bottom: 25px;
+    text-align:center;:w
+    
     }
 
 #training-purposes {
@@ -109,9 +126,6 @@ a.page-link  {
     font-weight: bold;
     }
 a.page-link:hover{
-    /* border: 2px solid #ff420e;
-    background-color: #ff420e;
-    color:  white; */
     opacity: 0.5;
     }
 
@@ -184,3 +198,14 @@ nav.bg-dark{
     color: #eb5e30;
     font-size: 35px;
 }
+
+section#main-title{
+  width:100%;
+  margin:0;
+}
+
+div#main-title-row{
+  padding: 0 !important;
+  margin: 0 !important; 
+}
+
