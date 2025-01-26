@@ -15,7 +15,7 @@ p.myroboto {
    font-size: 16px;
    line-height: 22px;
    font-weight: 400;
-  }
+}
 
 * {
     margin: 0;
@@ -31,7 +31,7 @@ p.myroboto {
     font-style: normal;
     color: #eb5e30;
     text-shadow: 9px 5px 4px #2a3132;
-    }
+}
     
 h1#club-logo{
     font-size: 50px !important;
@@ -39,22 +39,22 @@ h1#club-logo{
     padding-bottom: 25px;
     text-align:center;:w
     
-    }
+}
 
 #training-purposes {
     font-size: 30px !important;
-    }
+}
 
 .line{
     height: 1px;
     background-color:rgb(128, 128, 128);
-    }
+}
 
 
 section.container-fluid{
     padding:0;
     margin:0;
-    }
+}
 
 .carousel-caption h5{
     font-family: "Caveat Brush", cursive;
@@ -62,7 +62,7 @@ section.container-fluid{
     font-style: normal; 
     font-size: 50px;
     text-shadow: 5px 5px 1px rgb(0, 0, 0);
-    }
+}
 
 .carousel-caption p{
     font-family: "Caveat Brush", cursive;
@@ -70,14 +70,14 @@ section.container-fluid{
     font-style: normal;
     text-shadow: 3px 3px 1px rgb(0, 0, 0);
     font-size: 30px;
-    }
+}
 
 .circle{
     height: 50px;
     width: 50px;
     background-color:rgb(249, 6, 6);
     border-radius:0%;
-    }
+}
 
 .footer h5{
     height: 10rem;
@@ -85,7 +85,7 @@ section.container-fluid{
     text-align: center;
     margin: auto;
     width: 100%;
-    }
+}
 
 .service-icon {
     color: #1D809F;
@@ -96,23 +96,20 @@ section.container-fluid{
     line-height: 7.5rem;
     font-size: 2.25rem;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-    }
+}
 
 .service-icon:hover{
     opacity: 0.6;
 }
 .mb-5 {
     margin-bottom: 3rem !important;
-    }
+}
 
 .content-section {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
-    }
+}
 
-.content-section-heading h2, .content-section-heading .h2 {
-    font-size: 3rem;
-    }
 a.page-link  {
     border: 2px solid #ff420e;
     background-color: rgba(255,255,255,0.0);
@@ -124,10 +121,10 @@ a.page-link  {
     display: inline-block;
     font-size:20px;
     font-weight: bold;
-    }
+}
 a.page-link:hover{
     opacity: 0.5;
-    }
+}
 
 .footer{
     background-color:#304040; 
@@ -152,7 +149,7 @@ a.page-link:hover{
     font-style: normal;
     color: #eb5e30;
     text-shadow: 9px 5px 4px #2a3132;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 a.navbar-brand img{
@@ -165,17 +162,17 @@ a.navbar-brand img{
     border-radius: 20px;
 }
 
+
 nav.bg-dark{
     background-color: rgba(0,0,0,0.1) !important;
     width: 100%;
-    height: auto;
+    height: 100%;
       
-    background: url(../images/1.webp);
-    background-position: bottom;
+    background: url(../images/2.webp);
+    background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
-
 }
 
 .site-note-row {
@@ -204,8 +201,33 @@ section#main-title{
   margin:0;
 }
 
+/* to avoid horizontal scroll */
 div#main-title-row{
   padding: 0 !important;
   margin: 0 !important; 
+}
+
+@media only screen and (max-width: 700px) {
+    a.navbar-brand img {
+        width:35px;
+        height: 35px;
+    }
+    .navbar-toggler-icon{
+        width: .8em;
+        height: .8em;
+    }
+    .content-section-heading h2 {
+        font-size: 30px;
+    }
+    h1#club-logo{
+        font-size: 40px !important;
+    }
+    .site-note{
+        margin-top: 20px;
+    }
+    .site-note p {
+        font-size: 20px;
+        text-align: left;
+    }
 }
 
