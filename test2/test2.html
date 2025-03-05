@@ -4,15 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>St. Joseph's Computer Club</title>
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mystyle.css" rel="stylesheet">
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
+    <style>
     #header{
       width: 100%;
       height: 100vh; 
-      min-height: 40rem; 
+      min-height: 10rem; 
       text-align: center;
       background-color: rgba(0, 0, 0, 0.9) !important;
 
@@ -30,19 +29,13 @@
     #header-h1{
       color: white;
       font-size: 70px;
-    /*  font-family: "Permanent Marker", serif;
-      font-weight: 400;
-      font-style: normal; */
-     /* text-shadow: 3px 3px black; */
-
-  }
-  #header-p{
-    color: white;
-    font-size: 30px; 
-   /* text-shadow: -3px -3px black; */
-  }
-  
-  a{
+    }
+    #header-p{
+      color: white;
+      font-size: 30px; 
+    }
+    
+     a{
 
     background-color: red;
     color: white;
@@ -56,9 +49,44 @@
     border-radius: 40px;
   
   }
+    a:hover{
+        background-color:white;
+        border: 5px solid red;
+        color: red;
+     }
+    
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+      border-radius: 50%; 
+      box-shadow: 5px 5px 12px rgba(0, 0, 0,0.05);
+      transition: 1s;
+    }
+    img:hover{
+      border-radius: 20px;
+      border: 7px solid rgba(255,45,45,1);
+      box-shadow: 5px 5px 30px rgba(0, 0, 0,1); 
+      transform: rotate(20deg);
+    }
 
-  
-</style>
+video, iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+    h1{
+      text-align: center;
+      font-size:60px;
+      padding: 50px;
+     /* box-shadow: 5px 5px 12px rgba(0, 0, 0,1); */
+      text-shadow: 3px 3px 2px rgba(0, 0, 0,.5);
+     /* background-color: green; */
+    }
+    </style>
 
   </head>
   <body>
@@ -76,18 +104,37 @@
     <section id="about" class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="section-title">About This Site</h1>
+          <h1 class="section-title">About me</h1>
+          <img src="reading.jpg">
           <p>
             This is my test paragraph...
           </p>
+          <h1 class="section-title">About My School</h1>
+
+          <p>I would like to say....</p>
+
+          <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/e1hkdw0Z9Pw?si=nZqFwAWZ1GCD00-S&amp;controls=0" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; 
+          encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen></iframe>
+        
+          <h1 class="section-title">My Favourite Video</h1>
+            <p> I love my video...</p>
+          <video width="560" height="315" controls>
+            <source src="turtle.mp4" type="video/mp4">
+          </video>
+          <hr>
           <a href="../index.html">
             Click to go back to the front page...
           </a>
-          
         </div>
       </div>
     </setion>
-
+    
+<!-- In this section, we will not learn about these (script) tags. -->
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/anime.min.js"></script>
     <script src="js/myjs.js"></script>
