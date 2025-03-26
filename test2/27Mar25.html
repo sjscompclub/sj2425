@@ -1,0 +1,64 @@
+ <style>
+      @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+      
+      #header{
+        width: 100%;
+        position: relative; 
+        margin:0;
+        padding:0;
+        z-index: 0;
+        /*width: 100%;
+          height:100vh;
+          min-height: 10rem;
+          text-align: center;
+         
+          background-color: rgba(0, 0, 0, 0.9) !important;
+  
+          background: url(https://upload.wikimedia.org/wikipedia/commons/6/67/Chongqing_Nightscape.jpg);
+          background-position: top;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          background-attachment: scroll; */
+  
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          }
+  
+    #myVideo {
+      padding:0;
+      margin:0;
+      right: 0 !important;
+      left: 0 !important;
+      top: 0;
+      min-width: 100%;
+      z-index:0;
+    }
+  #header div{
+      
+      position: absolute;
+      top: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 9999;
+
+
+     }
+
+      
+  </style>
+  </head>
+  <body>
+    <section id="header">
+      <video autoplay muted loop id="myVideo">
+        <source src="turtle.mp4" type="video/mp4">
+      </video>
+      <div>
+        <h1 id="header-h1">
+          Welcome to Ronan's Page
+        </h1>
+        <p id="header-p">
+          ronan is cool. only cool people allowed have fun
+        </p>
+      </div>
+    </section>
