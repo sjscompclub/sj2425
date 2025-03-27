@@ -10,6 +10,11 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap');
       #header{
+        width: 100%;
+        position: relative; 
+        margin:0;
+        padding:0;
+        z-index: 0;
          /* width: 100%;
           height: 100vh;
           min-height: 10rem;
@@ -28,6 +33,7 @@
           }
 
           #myVideo {
+            position: relative;
            padding:0;
            margin:0;
            right: 0 !important;
@@ -40,12 +46,13 @@
             top: 50%;
             margin-left: auto;
             margin-right: auto;
-            z-index: 9999;
+            z-index: 99999;
           }
   
       #header-h1{
           color: white;
-          font-size: 70px; font-family: "Foldit", sans-serif;
+          font-size: 70px; 
+          font-family: "Foldit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
@@ -57,14 +64,13 @@
           }
          
           a{
-
-background-color: aqua;
-color:darkslategray;
-text-decoration: none;
-padding: 20px 40px;
-border: 2px solid black;
-display: block;
-margin-top: 30px
+        background-color: aqua;
+        color:darkslategray;
+        text-decoration: none;
+        padding: 20px 40px;
+        border: 2px solid black;
+      display: block;
+      margin-top: 30px;
 margin-bottom: 800px;
 width: 1200px;
 border-radius: 40px;
@@ -89,7 +95,8 @@ border-radius: 40px;
   <body>
     <section id="header">
       <video autoplay muted loop id="myVideo">
-  <source src="turtle.mp4" type="video/mp4">
+        <source src="turtle.mp4" type="video/mp4">
+      </video>
       <div>
         <h1 id="header-h1">
           Welcome to Emmet's page
@@ -104,7 +111,7 @@ border-radius: 40px;
       <div class="row">
         <div class="col-md-12">
           <h1 class="section-title">About Me</h1>
-          <img src="reading.jpg"
+          <img src="reading.jpg">
           <p>
             This is my test paragraph...
           </p>
